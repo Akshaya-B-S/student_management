@@ -1,0 +1,118 @@
+
+/* Set the default font and page background */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    color: #263247;
+}
+
+/* Top heading */
+.header {
+    background: #263a67;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.header h1 {
+    margin-top: 0;
+}
+
+/* Main page width */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* White content boxes */
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.card h2 {
+    color: #263a67;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd3df;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    background: #4267b2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Status message */
+.message {
+    overflow-wrap: anywhere;
+}
+
+/* Student table */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #edf1fa;
+}
+
+/* Delete button */
+.delete-button {
+    margin-top: 0;
+    background: #d94444;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
